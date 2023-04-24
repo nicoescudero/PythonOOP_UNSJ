@@ -1,0 +1,11 @@
+Email list
+user1,@example,.com,1234;
+user2,@example,.com,12345;
+user3,@gmail,.com,01234;
+user4,,.net,1234;
+user5,@gmail,.net,12345;
+user6,@example,.net,01234;
+user7,@gmail,.org,1234;
+user8,@yahoo,.org,12345;
+user9,@yahoo,.org,01234;
+user10,@outlook,.org,;

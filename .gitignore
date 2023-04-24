@@ -1,0 +1,29 @@
+#Ejercicio1
+#Ignore pycache from main
+Ejercicio1/__pycache__
+#Ignore pycache from classes
+Ejercicio1/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio1/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio1/utils/__pycache__
+
+#Ejercicio2
+#Ignore pycache from main
+Ejercicio2/__pycache__
+#Ignore pycache from classes
+Ejercicio2/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio2/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio2/utils/__pycache__
+
+#Ejercicio3
+#Ignore pycache from main
+Ejercicio1/__pycache__
+#Ignore pycache from classes
+Ejercicio1/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio1/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio1/utils/__pycache__
