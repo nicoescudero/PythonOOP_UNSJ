@@ -20,10 +20,63 @@ Ejercicio2/utils/__pycache__
 
 #Ejercicio3
 #Ignore pycache from main
-Ejercicio1/__pycache__
+Ejercicio3/__pycache__
 #Ignore pycache from classes
-Ejercicio1/classes/__pycache__
+Ejercicio3/classes/__pycache__
 #Ignore pycache from controllers
-Ejercicio1/controllers/__pycache__
+Ejercicio3/controllers/__pycache__
 #Ignore pycache from utils
-Ejercicio1/utils/__pycache__
+Ejercicio3/utils/__pycache__
+
+#Ejercicio4
+#Ignore pycache from main
+Ejercicio4/__pycache__
+#Ignore pycache from classes
+Ejercicio4/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio4/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio4/utils/__pycache__
+
+#Ejercicio5
+#Ignore pycache from main
+Ejercicio5/__pycache__
+#Ignore pycache from classes
+Ejercicio5/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio5/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio5/utils/__pycache__
+
+#Ejercicio6
+#Ignore pycache from main
+Ejercicio6/__pycache__
+#Ignore pycache from classes
+Ejercicio6/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio6/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio6/utils/__pycache__
+
+#Ejercicio7
+#Ignore pycache from main
+Ejercicio7/__pycache__
+#Ignore pycache from classes
+Ejercicio7/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio7/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio7/utils/__pycache__
+
+#Ejercicio8
+#Ignore pycache from main
+Ejercicio8/__pycache__
+#Ignore pycache from classes
+Ejercicio8/classes/__pycache__
+#Ignore pycache from controllers
+Ejercicio8/controllers/__pycache__
+#Ignore pycache from utils
+Ejercicio8/utils/__pycache__
+
+#Investigacion
+Investigacion
