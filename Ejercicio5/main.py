@@ -16,7 +16,6 @@ while flag:
     if option == 2: controller.vehiculosDisponibles()
     if option == 3: controller.monto_a_Pagar()
     if option == 4: controller.modificar_Cantidad_Cuotas()
-    if option == 5: controller.importeVehiculos()
     if(option != 1 and option != 2 and option != 3 and option != 4 and option != 5 and option != 9):
         print('Ingresa una de las opciones disponibles.')
         input()

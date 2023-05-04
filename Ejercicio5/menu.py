@@ -1,12 +1,11 @@
 import os
-
+from classes.planAhorro import PlanAhorro
 def main_menu():
-    print('Ejercicio 5\n')
+    print('Ejercicio 5\t{}\n'.format(PlanAhorro.getConcesionaria()))
     print('1) Actualizar valores de vehiculos')
     print('2) Vehiculos disponibles / valor cuota')
     print('3) Monto a pagar para licitar vehiculo')
     print('4) Modificar cantidad de cuotas para licitar vehiculo')
-    print('5) Importe de todos los vehiculos')
     print('\n9) Salir')
 
 def clearConsole():
