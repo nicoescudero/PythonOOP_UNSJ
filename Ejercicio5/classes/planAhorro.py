@@ -1,5 +1,5 @@
-import math
 class PlanAhorro:
+    __concesionaria = 'Concesionaria Mayo'
     def __init__(self,codigo=0,modelo='',version='',valor=0,cantidadCuotas=0,cuotasLicitar=0):
         self.__codigo = codigo
         self.__modelo = modelo
@@ -16,6 +16,11 @@ class PlanAhorro:
     def getCuotasLicitar(self): return self.__cuotasLicitar
     def getImporteCuota(self):
         return format((self.__valor/self.__cantidadCuotas)+self.__valor*0.10,'.2f')
+
+    @classmethod
+    def getConcesionaria(cls): return cls.__concesionaria
+    @classmethod
+    def setConcesionaria(cls, value): cls.__concesionaria = value
 
     def setValor(self,value): self.__valor = value
     def setCuotasLicitar(self,value): self.__cuotasLicitar = value
