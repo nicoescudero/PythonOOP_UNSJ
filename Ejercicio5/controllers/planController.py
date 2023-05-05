@@ -33,7 +33,3 @@ class PlanController:
                 i = len(self.__list)
             i+=1
         if found == False: print('\nPlan no encontrado...')
-    
-    def importeVehiculos(self):
-        for car in self.__list:
-            print('Codigo: {}\tModelo: {}\tVersion: {}\tValor: {}\tImporte de Cuota: {}'.format(car.getCodigo(),car.getModelo(),car.getVersion(),car.getValor(),car.getImporteCuota()))
