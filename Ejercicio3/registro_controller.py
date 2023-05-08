@@ -1,7 +1,7 @@
 class RegController:
     def __init__(self, list = []):
         self.__list = list
-    #Para cada variable de temperatura mostrar el menor y mayor valor junto con su hora
+    #Para cada variable de mostrar el menor y mayor valor junto con su dia y hora
     def maxAndMin(self):
         maxT = self.__list[0][0].getTemperatura()
         maxH = self.__list[0][0].getHumedad()
@@ -65,10 +65,11 @@ class RegController:
             for hora in dia:
                 tProm[h] += hora.getTemperatura()
                 h += 1
+        print(tProm)
         print('\nTemperatura promedio para cada hora...\n')
         h = 0
         for t in tProm:
-            print('Hora: {} Temperatura: {}'.format(h,t/2),)
+            print('Hora: {}hs Temperatura: {}'.format(h,t/2),)
             h += 1
     #Busquedad de los valores de las variables
     def buscarDiaYVariables(self):
