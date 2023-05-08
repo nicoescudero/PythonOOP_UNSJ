@@ -80,3 +80,13 @@ Ejercicio8/utils/__pycache__
 
 #Investigacion
 Investigacion
+
+#Integrador
+#Ignore pycache from main
+Integrador/__pycache__
+#Ignore pycache from classes
+Integrador/classes/__pycache__
+#Ignore pycache from controllers
+Integrador/controllers/__pycache__
+#Ignore pycache from utils
+Integrador/utils/__pycache__
