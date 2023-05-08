@@ -3,24 +3,9 @@ class RegController:
         self.__list = list
     #Para cada variable de mostrar el menor y mayor valor junto con su dia y hora
     def maxAndMin(self):
-        maxT = self.__list[0][0].getTemperatura()
-        maxH = self.__list[0][0].getHumedad()
-        maxP = self.__list[0][0].getPresionAtmoseferica()
-        minT = maxT
-        minH = maxH
-        minP = maxP
-        dayMT = 0
-        dayMH = 0
-        dayMP = 0
-        daymT = 0
-        daymH = 0
-        daymP = 0
-        hourMT = 0
-        hourMP = 0
-        hourMH = 0
-        hourmT = 0
-        hourmH = 0
-        hourmP = 0
+        t = [self.__list[0][0].getTemperatura(),0,0,self.__list[0][0].getTemperatura(),0,0]
+        h = [self.__list[0][0].getHumedad(),0,0,self.__list[0][0].getHumedad(),0,0]
+        p = [self.__list[0][0].getHumedad(),0,0,self.__list[0][0].getHumedad(),0,0]
         day = 1
         for dia in self.__list:
             hour = 0
@@ -28,35 +13,35 @@ class RegController:
                 temperatura = hora.getTemperatura()
                 humedad = hora.getHumedad()
                 presion = hora.getPresionAtmoseferica()
-                if temperatura > maxT: 
-                    dayMT = day
-                    hourMT = hour
-                    maxT = temperatura
+                if temperatura > t[0]: 
+                    t[0] = temperatura
+                    t[1] = day
+                    t[2] = hour
                 else:
-                    daymT = day
-                    hourmT = hour
-                    minT = temperatura
-                if humedad > maxH:
-                    dayMH = day
-                    hourMH = hour
-                    maxH = humedad
+                    t[3] = temperatura
+                    t[4] = day
+                    t[5] = hour
+                if humedad > h[0]:
+                    h[0] = humedad
+                    h[1] = day
+                    h[2] = hour
                 else:
-                    daymH = day
-                    hourmH = hourmH
-                    minH = humedad
-                if presion > maxP:
-                    dayMP = day
-                    hourMP = hour
-                    maxP = presion
+                    h[3] = humedad
+                    h[4] = day
+                    h[5] = hour
+                if presion > p[0]:
+                    p[0] = presion
+                    p[1] = day
+                    p[2] = hour
                 else:
-                    daymP = day
-                    hourmP = hour
-                    minP = presion
+                    p[3] = presion
+                    p[4] = day
+                    p[5] = hour
                 hour += 1
             day += 1
-        print('Temperatura:\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(maxT,dayMT,hourMT,minT,daymT,hourmT))
-        print('\nHumedad:\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(maxH,dayMH,hourMH,minH,daymH,hourmH))
-        print('\nPresion atmosferica\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(maxP,dayMP,hourMP,minP,daymP,hourmP))
+        print('Temperatura:\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(t[0],t[1],t[2],t[3],t[4],t[5]))
+        print('\nHumedad:\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(h[0],h[1],h[2],h[3],h[4],h[5]))
+        print('\nPresion atmosferica\nMaxima = {} Dia: {} Hora: {}\nMinima = {} Dia: {} Hora: {}'.format(p[0],p[1],p[2],p[3],p[4],p[5]))
     #Temperatura promedio
     def temperaturaPromedio(self):
         tProm = [0 for colum in range(24)]
