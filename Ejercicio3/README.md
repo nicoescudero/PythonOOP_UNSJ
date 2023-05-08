@@ -17,7 +17,7 @@ Implemente un programa que:
 de las variables meteorológicas (instancia de la clase Registro)
 para cada día del mes, por cada hora.
 2. Almacene en la lista bidimensional los datos registrados en el
-archivo. [['D','H','R'],['D','H','R'],['D','H','R']]
+archivo.
 3. Presente un menú de opciones permita realizar las siguientes
 tareas:
 **1** Mostrar para cada variable el día y hora de menor y mayor

@@ -1,11 +1,10 @@
 from os.path import dirname, join
-import csv
-
+from classes.registro import Registro
 def loadFileTXT():
-    list = []
+    list = [[ 0 for colum in range(24)]for fila in range(2)]
     flag = True
-    file = open(join(dirname(__file__),'registroTemperaturas.txt'))
-    lista = csv.reader(file,delimiter = ';')
+    file = open(join(dirname(__file__),'register.txt'),'r')
+    lista = file.readlines()
     for row in lista:
         if flag: flag = False
         else: loadRow(list,row)
@@ -13,9 +12,12 @@ def loadFileTXT():
     return list
 
 def loadRow(list,row):
-    adrs = row[0].split(',')
-    if adrs[0] == '' or adrs[1] == '' or adrs[2] == '' or adrs[3] == '' or adrs[4] == '' :
-        print('Error en la direccion',adrs)
+    row = row.split(',')
+    if row[0] == '' or row[1] == '' or row[2] == '' or row[3] == '' or row[4] == '' :
+        print('Error en la direccion',row)
     else:
-        #list.append(ViajeroFrecuente(int(adrs[0]),int(adrs[1]),adrs[2],adrs[3],int(adrs[4])))
+        day = int(row[0]) - 1
+        time = int(row[1]) - 1
+        register = Registro(int(row[2]),int(row[3]),int(row[4]))
+        list[day][time] = register
         return list
