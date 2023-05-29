@@ -122,3 +122,13 @@ Unidad3/Ejercicio3/classes/__pycache__
 Unidad3/Ejercicio3/controllers/__pycache__
 #Ignore pycache from utils
 Unidad3/Ejercicio3/utils/__pycache__
+
+#Ejercicio4
+#Ignore pycache from main
+Unidad3/Ejercicio4/__pycache__
+#Ignore pycache from classes
+Unidad3/Ejercicio4/classes/__pycache__
+#Ignore pycache from controllers
+Unidad3/Ejercicio4/controllers/__pycache__
+#Ignore pycache from utils
+Unidad3/Ejercicio4/controllers/utils/__pycache__
