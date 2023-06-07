@@ -136,3 +136,13 @@ Unidad3/Ejercicio4/controllers/utils/__pycache__
 #Ejercicio5
 #Ignore pycache from main
 Unidad3/Ejercicio5/__pycache__
+
+#Ejercicio6
+#Ignore pycache from main
+Unidad3/Ejercicio6/__pycache__
+#Ignore pycache from classes
+Unidad3/Ejercicio6/classes/__pycache__
+#Ignore pycache from controllers
+Unidad3/Ejercicio6/controllers/__pycache__
+#Ignore pycache from utils
+Unidad3/Ejercicio6/utils/__pycache__

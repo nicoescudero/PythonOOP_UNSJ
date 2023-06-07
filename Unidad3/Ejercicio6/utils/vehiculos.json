@@ -1,0 +1,53 @@
+{
+    "__class__": "Lista",
+    "Vehiculos": [
+        {
+            "__class__": "VehiculoNuevo",
+            "__atributos__": {
+                "marca": "Ford",
+                "modelo": "Mustang",
+                "cPuertas": 2,
+                "color": "blanco",
+                "precio": 2500000,
+                "version": "Full"
+            }
+        },
+        {
+            "__class__": "VehiculoNuevo",
+            "__atributos__": {
+                "marca": "Ford",
+                "modelo": "Eco Sport",
+                "cPuertas": 5,
+                "color": "azul",
+                "precio": 1000000,
+                "version": "base"
+            }
+        },
+        {
+            "__class__": "VehiculoUsado",
+            "__atributos__": {
+                "marca": "Peugeot",
+                "modelo": "405",
+                "cPuertas": 4,
+                "color": "Gris",
+                "precio": 750000,
+                "patente": "QQE123",
+                "year": 1995,
+                "kilometraje": 155000
+            }
+        },
+        {
+            "__class__": "VehiculoUsado",
+            "__atributos__": {
+                "marca": "Chevrolet",
+                "modelo": "Onix",
+                "cPuertas": 5,
+                "color": "Blanco",
+                "precio": "881000",
+                "patente": "OOP001",
+                "year": 2014,
+                "kilometraje": 30000
+            }
+        }
+    ]
+}
