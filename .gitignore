@@ -146,3 +146,39 @@ Unidad3/Ejercicio6/classes/__pycache__
 Unidad3/Ejercicio6/controllers/__pycache__
 #Ignore pycache from utils
 Unidad3/Ejercicio6/utils/__pycache__
+
+#Ejercicio7
+#Ignore pycache from main
+Unidad3/Ejercicio7/__pycache__
+#Ignore pycache from classes
+Unidad3/Ejercicio7/classes/__pycache__
+#Ignore pycache from controllers
+Unidad3/Ejercicio7/controllers/__pycache__
+#Ignore pycache from intefaces
+Unidad3/Ejercicio7/interfaces/__pycache__
+#Ignore pycache from utils
+Unidad3/Ejercicio7/utils/__pycache__
+
+#Ejercicio8
+#Ignore pycache from main
+Unidad3/Ejercicio8/__pycache__
+#Ignore pycache from classes
+Unidad3/Ejercicio8/classes/__pycache__
+#Ignore pycache from controllers
+Unidad3/Ejercicio8/controllers/__pycache__
+#Ignore pycache from intefaces
+Unidad3/Ejercicio8/interfaces/__pycache__
+#Ignore pycache from utils
+Unidad3/Ejercicio8/utils/__pycache__
+
+#Ejercicio9
+#Ignore pycache from main
+Unidad3/Ejercicio9/__pycache__
+#Ignore pycache from classes
+Unidad3/Ejercicio9/classes/__pycache__
+#Ignore pycache from controllers
+Unidad3/Ejercicio9/controllers/__pycache__
+#Ignore pycache from intefaces
+Unidad3/Ejercicio9/interfaces/__pycache__
+#Ignore pycache from utils
+Unidad3/Ejercicio9/utils/__pycache__
