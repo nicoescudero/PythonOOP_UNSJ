@@ -1,0 +1,59 @@
+{
+    "__class__": "Lista",
+    "Personal": [
+        {
+            "__class__": "DocenteInvestigador",
+            "__atributos__": {
+                "cuil": "207778881",
+                "apellido": "Guzman",
+                "nombre": "Agustina",
+                "sueldo": 100000,
+		        "antiguedad": 10,
+                "area": "Informatica",
+                "tipo": "Asistente",
+                "carrera": "LCC",
+                "cargo": "simple",
+                "catedra": "Procedural",
+                "categoria": 3,
+                "importeextradocencia": 5000,
+                "importeextrainvestigador": 6000
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "20802212",
+                "apellido": "Fernandez",
+                "nombre": "Octavio",
+                "sueldo": 90000,
+		        "antiguedad": 7,
+                "area": "Informatica",
+                "tipo": "academico"
+            }
+        },
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "374544280",
+                "apellido": "Ramirez",
+                "nombre": "Sebastian",
+                "sueldo": 90000,
+		        "antiguedad": 5,
+                "carrera": "TUPW",
+                "cargo": "simple",
+                "catedra": "POO"
+            }
+        },
+        {
+            "__class__": "PersonalApoyo",
+            "__atributos__": {
+                "cuil": "30300400",
+                "apellido": "Gonzalez",
+                "nombre": "Javier",
+                "sueldo": 80000,
+		        "antiguedad": 2,
+                "categoria": 7
+            }
+        }
+    ]
+}
